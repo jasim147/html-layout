@@ -1,0 +1,120 @@
+body{
+    background-color: aquamarine;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    border: 1px solid rgb(181, 231, 247);
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    background-color: blanchedalmond;
+    overflow: hidden;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.logo{
+   float: left;
+   width: 30%;
+}
+div img{
+    width: 100px;
+}
+.login{
+    float: right;
+    width: 70%;
+    text-align: right;
+    text-decoration: none;
+}
+.log{
+    float: right;
+    width: 70%;
+    text-align: right;
+    text-decoration: none;
+}
+.search1{
+width: 500px;
+height: 40px;
+border-radius: 5px;
+font-size: 15px;
+}
+aside ul li {
+    display: inline-block;
+    margin: 0% 15px;
+    font-size: 20px;
+    background: rgb(247, 171, 6);
+}
+aside ul li a{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    background: rgb(13, 241, 9);
+    border-radius: 8px;
+    padding: 8px;
+}
+nav{
+    float: right  ;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0% 15px;
+    font-size: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    background: rgba(248, 146, 30, 0.895);
+    border-radius: 8px;
+    padding: 8px;
+    color: azure;
+
+}
+main{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+main section{
+    float: left;
+    width: 75%;
+    background-color: rgba(154, 244, 244, 0.623);
+}
+main section img{
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.hh2{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+.p1{
+    text-align: center;
+}
+main aside{
+    float: right;
+    width: 25%;
+    background-color: rgb(12, 27, 8);
+    padding: 15px;
+    color: rgb(239, 241, 237);
+}
+footer{
+    background-color: rgb(187, 245, 170);
+    text-align: center;
+    padding: 10px;
+}
+.pk{
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 15px;
+    background: rgb(253, 194, 3);
+
+}
